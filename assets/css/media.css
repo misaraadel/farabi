@@ -1,0 +1,78 @@
+@media(max-width: 900px){
+    h1,
+    h2,
+    h3 {
+        font-size: 20px !important;
+    }
+
+    h4 {
+        font-size: 18px !important;
+    }
+
+    h5 {
+        font-size: 16px !important;
+    }
+
+    h6 {
+        font-size: 14px !important;
+    }
+
+    p {
+        font-size: 12px !important;
+    }
+    .share{
+        display: block;
+    }
+    nav .nav-content .contact-icon ,
+    nav .nav-content .navbar-nav 
+    {
+        display: none;
+    }
+    .mobile-nav{
+        display: block;
+    }
+    .nav{
+        position: static;
+        background-color: #0fae5d;
+    }
+    
+    .scroll-top-btn{
+        bottom: 5px;
+        border: 0px solid #0fae5d;
+    }
+
+    .scroll-top-btn:hover{
+        border-radius: 4px;
+    }
+    header{
+        padding: 50px 0px;
+    }
+    header .header-content .image-content ,
+    .about-us .image-content
+    {
+        margin-top: 40px;
+    }
+    header .header-content .image-content::after
+    {
+        width: 20%;
+    }
+    .contact-us .contact-cards .box {
+        padding: 20px 20px;
+    }
+    footer .footer-content {
+        padding: 60px 0px 49px 0px;
+    }
+}
+@media(max-width: 600px)
+{
+    .services .service-slider 
+    {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .services .services-content
+    {
+        padding: 0px;
+    }
+    
+}
